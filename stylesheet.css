@@ -6,12 +6,9 @@
 
         @media (max-width: 199px) {
           div{
-            font-size:5px;
+            font-size:8px;
           }
         }
-    /* div{
-      font-size:5px;
-    } */
     .grid {
         background-color: #ffcc80;
         display: grid;

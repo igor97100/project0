@@ -3,24 +3,23 @@
         background-color: #ffcc80;
         display: grid;
         padding: 20px;
-        grid-column-gap: 20px;
-        grid-row-gap: 10px;
-        grid-template-columns: 200px 200px auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+        grid-template-columns: auto auto auto;
     }
 
     .grid-item1 {
         background-color: white;
         color:#e65100;
         font-size: 15px;
-        padding: 20px;
+        padding: 5px;
         text-align: center;
-
     }
     .grid-item2 {
         background-color: white;
         color:#e65100;
         font-size: 15px;
-        padding: 20px;
+        padding: 5px;
         text-align: left;
     }
     .grid-item3 {

@@ -1,12 +1,12 @@
         @media (min-width: 200px) {
           div{
-            font-size:70%;
+            font-size:15px;
           }
         }
 
         @media (max-width: 199px) {
           div{
-            font-size:70%;
+            font-size:15px;
           }
         }
     .grid {

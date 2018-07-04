@@ -1,47 +1,74 @@
-        @media (min-width: 200px) {
-          div{
-            font-size:15px;
-          }
-        }
 
-        @media (max-width: 199px) {
-          div{
-            font-size:15px;
-          }
-        }
     .grid {
         background-color: #ffcc80;
         display: grid;
         padding: 20px;
         grid-column-gap: 10px;
         grid-row-gap: 5px;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:  "img1 hd1"
+                              "img1 ft1"
+                              "img2 hd2"
+                              "img2 ft2"
+                              "img3 hd3"
+                              "img3 ft3";
 
 
+
+
+
+
+    }
+    #img1{
+      grid-area: img1;
+    }
+    #img2{
+      grid-area: img2;
+    }
+    #img3{
+      grid-area: img3;
+    }
+    #hd1{
+      grid-area: hd1;
+    }
+    #hd2{
+      grid-area: hd2;
+    }
+    #hd3{
+      grid-area: hd3;
+    }
+    #ft3{
+      grid-area: ft3;
+    }
+    #ft2{
+      grid-area: ft2;
+    }
+    #ft1{
+      grid-area: ft1;
     }
 
     .grid-item1 {
-        background-color: white;
+        background-color: #fff3e0;
         color:#e65100;
         padding: 5px;
+        font-size: 20px;
         text-align: center;
         align-content: center;
-        align-self: center;
-
-         height:auto;
+        align-self: bottom;
+        height:auto;
     }
     .grid-item2 {
-        background-color: white;
+        background-color: #fff3e0;
         color:#e65100;
         padding: 5px;
-        text-align: left;
-        align-self: center;
-
+        font-size:10px;
+        text-align: center;
+        align-self: top;
         height:auto;
-
     }
     .grid-item3 {
-        background-color: white;
+        background-color: #fff3e0;
         color:#e65100;
         padding: 5px;
         align:center;

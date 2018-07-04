@@ -1,3 +1,20 @@
+    @media (min-width: 300px) {
+                .grid-item1{
+                  font-size:3.2vw;
+                }
+                .grid-item2{
+                  font-size:2vw;
+                }
+            }
+
+    @media (max-width: 299px) {
+                .grid-item1{
+                  font-size:2.8vw;
+                }
+                .grid-item2{
+                  font-size:1.6vw;
+                }
+            }
 
     .grid {
         background-color: #ffcc80;
@@ -6,19 +23,20 @@
         grid-column-gap: 10px;
         grid-row-gap: 5px;
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas:  "img1 hd1"
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:  "head head"
+                              "img1 hd1"
                               "img1 ft1"
                               "img2 hd2"
                               "img2 ft2"
                               "img3 hd3"
                               "img3 ft3";
-
-
-
-
-
-
+    }
+    #head{
+      grid-area: head;
+      font-size: 2.5vw;
+      text-align: center;
+      color: #ff5722;
     }
     #img1{
       grid-area: img1;
@@ -52,7 +70,6 @@
         background-color: #fff3e0;
         color:#e65100;
         padding: 5px;
-        font-size: 20px;
         text-align: center;
         align-content: center;
         align-self: bottom;
@@ -62,7 +79,6 @@
         background-color: #fff3e0;
         color:#e65100;
         padding: 5px;
-        font-size:10px;
         text-align: center;
         align-self: top;
         height:auto;

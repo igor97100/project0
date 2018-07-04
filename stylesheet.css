@@ -1,4 +1,17 @@
+        @media (min-width: 200px) {
+          div{
+            font-size:10px;
+          }
+        }
 
+        @media (max-width: 199px) {
+          div{
+            font-size:5px;
+          }
+        }
+    /* div{
+      font-size:5px;
+    } */
     .grid {
         background-color: #ffcc80;
         display: grid;
@@ -11,21 +24,19 @@
     .grid-item1 {
         background-color: white;
         color:#e65100;
-        font-size: 15px;
         padding: 5px;
         text-align: center;
+        align-content: center;
     }
     .grid-item2 {
         background-color: white;
         color:#e65100;
-        font-size: 15px;
         padding: 5px;
         text-align: left;
     }
     .grid-item3 {
         background-color: white;
         color:#e65100;
-        font-size: 15px;
         padding: 5px;
         align:center;
     }

@@ -6,7 +6,7 @@
                   font-size:2vw;
                 }
                 table{
-                  font-size: 2vw;
+                  font-size: 1.7vw;
                 }
             }
 
@@ -121,7 +121,7 @@
         margin: auto;
         border: 2px solid black;
         border-collapse: collapse;
-        width: 50%;
+        width: 75%;
     }
 
     th, td {

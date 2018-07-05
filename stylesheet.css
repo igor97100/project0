@@ -18,7 +18,7 @@
                   font-size:1.6vw;
                 }
                 table{
-                  font-size: 10vw;
+                  font-size: 30vw;
                 }
             }
 
@@ -111,7 +111,7 @@
     span{
       display: inline-block;
       vertical-align: middle;
-      line-height: 2.4vw; /* <-- adjust this */
+      line-height: 2.4vw;
     }
     h1{
       text-align: center;

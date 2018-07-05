@@ -1,4 +1,4 @@
-    @media (min-width: 700px) {
+    @media (min-width: 900px) {
                 .grid-item1{
                   font-size:3.2vw;
                 }
@@ -10,7 +10,7 @@
                 }
             }
 
-    @media (max-width: 699px) {
+    @media (max-width: 899px) {
                 .grid-item1{
                   font-size:2.8vw;
                 }

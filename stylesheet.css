@@ -102,9 +102,28 @@
       margin-right: auto;
       width: 100%;
     }
-    span
-{
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 2.4vw; /* <-- adjust this */
-}
+    span{
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 2.4vw; /* <-- adjust this */
+    }
+    h1{
+      text-align: center;
+      color: #ff5722;
+    }
+    table {
+        margin: auto;
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #ffcc80;
+    }

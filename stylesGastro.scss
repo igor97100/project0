@@ -1,0 +1,24 @@
+$color1: #ff5722;
+
+h3{
+  color:$color1;
+  margin: auto;
+  text-align: center;
+}
+.card{
+  margin: auto;
+}
+.btn {
+  background-color: $color1;
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+.btn-primary, .btn-primary:active, .btn-primary:visited , .buton-focus{
+    background-color: $color1 !important;
+    border-color:$color1 !important;
+}
+.btn-primary:hover{
+  background-color:#f57c00 !important; 
+  border-color:#f57c00 !important;
+}

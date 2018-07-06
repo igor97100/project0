@@ -1,0 +1,20 @@
+.grid-item2, .grid-item1 {
+  background-color: #fff3e0;
+  color: #e65100;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+  height: auto;
+  vertical-align: middle;
+}
+
+.grid-item1 {
+  align-self: bottom;
+}
+
+.grid-item2 {
+  align-self: top;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=gridStyles.css.map */

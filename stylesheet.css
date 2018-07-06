@@ -30,7 +30,8 @@
         grid-row-gap: 5px;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto;
-        grid-template-areas:  "head head"
+        grid-template-areas:  "bck  bck"
+                              "head head"
                               "img1 hd1"
                               "img1 ft1"
                               "img2 hd2"
@@ -71,7 +72,10 @@
     #ft1{
       grid-area: ft1;
     }
-
+    #back{
+      grid-area: bck;
+    }
+/* 
     .grid-item1 {
         background-color: #fff3e0;
         color:#e65100;
@@ -92,7 +96,7 @@
         vertical-align:middle;;
         height:auto;
 
-    }
+    } */
     .grid-item3 {
         background-color: #fff3e0;
         color:#e65100;
@@ -131,4 +135,7 @@
 
     th {
         background-color: #ffcc80;
+    }
+    .card{
+      margin-top: 10px;
     }

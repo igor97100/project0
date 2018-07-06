@@ -1,0 +1,27 @@
+h3 {
+  color: #ff5722;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+}
+
+.btn {
+  background-color: #ff5722;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited, .buton-focus {
+  background-color: #ff5722 !important;
+  border-color: #ff5722 !important;
+}
+
+.btn-primary:hover {
+  background-color: #f57c00 !important;
+  border-color: #f57c00 !important;
+}
+
+/*# sourceMappingURL=stylesGastro.css.map */

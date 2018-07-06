@@ -1,0 +1,18 @@
+%grid{
+  background-color: #fff3e0;
+  color:#e65100;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+  height:auto;
+  vertical-align: middle;
+}
+.grid-item1{
+  @extend %grid;
+  align-self: bottom;
+}
+.grid-item2{
+  @extend %grid;
+  align-self: top;
+  line-height: normal;
+}
